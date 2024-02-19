@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+  color: rgb(68, 68, 68);
 }
 
 header {
@@ -7,48 +8,43 @@ header {
 }
 
 main ul {
-  width: 700px;
+  width: 1200px;
   margin: 0 auto;
 }
 
-main li {
+main ul li {
   display: flex;
   background-color: white;
   box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
   overflow: hidden;
+  margin: auto;
 }
 
-main li img {
+main ul li img {
   width: 300px;
   height: 280px;
   object-fit: cover;
 }
 
 .item-content {
+  padding: 24px;
   display: flex;
   flex-direction: column;
-  padding: 24px;
+  justify-content: space-between;
 }
 
 .actions {
-  padding: 6px 0;
-  border-radius: 6px;
-  width: 80px;
-  margin-top: auto;
-  margin-left: auto;
-  text-align: center;
+  text-align: right;
 }
 
 .actions a {
   text-decoration: none;
-  color: cyan;
+  padding: 6px;
+  border-radius: 6px;
+  color: rgb(22, 211, 228);
 }
 
-.actions:hover {
-  background-color: rgb(104, 255, 255);
-}
-
-.actions:hover a {
-  color: rgb(8, 122, 122);
+.actions a:hover {
+  background-color: rgb(235, 253, 255);
 }
